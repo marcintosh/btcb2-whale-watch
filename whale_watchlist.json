@@ -1,0 +1,1380 @@
+{
+  "built": "2026-09-16T18:59:55.926786",
+  "method": "Repeat-address analysis over chainflow.csv (1613 logged flow rows, 1001 unique counterparty addresses, 131 seen 2+ times). Honest limit: this only catches addresses that get REUSED across transactions. A sophisticated actor using a fresh address every withdrawal (standard privacy hygiene) is invisible to this method.",
+  "structural_sellers": [
+    {
+      "address": "1EncKs9FWy8i6DPo5nPopnD3H9eqho43fU",
+      "direction": "deposit",
+      "occurrences": 81,
+      "total_btcb2": 134.81,
+      "days_seen": [
+        "2026-09-07",
+        "2026-09-08",
+        "2026-09-09"
+      ],
+      "note": "Recurring depositor, 81 txs, small avg size (~1.66 BTCB2/tx) - looks automated (miner payout / claimer script)."
+    },
+    {
+      "address": "bc1qqme26fvym0sl2568g3wn8dytt280jyhs7ln7m3",
+      "direction": "deposit",
+      "occurrences": 76,
+      "total_btcb2": 117.76,
+      "days_seen": [
+        "2026-09-07",
+        "2026-09-08",
+        "2026-09-09",
+        "2026-09-15",
+        "2026-09-16"
+      ],
+      "note": "Recurring depositor, 76 txs, small avg size (~1.55 BTCB2/tx) - looks automated (miner payout / claimer script)."
+    },
+    {
+      "address": "1By8prQMbUciuccQuRFBsyeqFUmbudM1Cd",
+      "direction": "deposit",
+      "occurrences": 7,
+      "total_btcb2": 74.83,
+      "days_seen": [
+        "2026-09-07",
+        "2026-09-08",
+        "2026-09-09"
+      ],
+      "note": "Recurring depositor, 7 txs across 3 day(s)."
+    },
+    {
+      "address": "bc1q8k2j4zr79asrfcw5zace3gajza33rmv5rv67w2",
+      "direction": "deposit",
+      "occurrences": 26,
+      "total_btcb2": 71.84,
+      "days_seen": [
+        "2026-09-09",
+        "2026-09-15",
+        "2026-09-16"
+      ],
+      "note": "Recurring depositor, 26 txs, small avg size (~2.76 BTCB2/tx) - looks automated (miner payout / claimer script)."
+    },
+    {
+      "address": "bc1qwqdv6vdypqlfy0yhdagfuvycvhllugzmg7zjn9",
+      "direction": "deposit",
+      "occurrences": 9,
+      "total_btcb2": 65.02,
+      "days_seen": [
+        "2026-09-07",
+        "2026-09-08",
+        "2026-09-15",
+        "2026-09-16"
+      ],
+      "note": "Recurring depositor, 9 txs across 4 day(s)."
+    },
+    {
+      "address": "bc1qd0lk23alu007zzu8jhjfm2haeyfvy4cudnw5ye",
+      "direction": "deposit",
+      "occurrences": 4,
+      "total_btcb2": 64.0,
+      "days_seen": [
+        "2026-09-08",
+        "2026-09-15"
+      ],
+      "note": "Recurring depositor, 4 txs across 2 day(s)."
+    },
+    {
+      "address": "bc1qlrmjpgg0e5jrhmzyjmtgc6dfpdr66sps8vjl2q",
+      "direction": "deposit",
+      "occurrences": 101,
+      "total_btcb2": 52.65,
+      "days_seen": [
+        "2026-09-07",
+        "2026-09-08",
+        "2026-09-09"
+      ],
+      "note": "Recurring depositor, 101 txs, small avg size (~0.52 BTCB2/tx) - looks automated (miner payout / claimer script)."
+    },
+    {
+      "address": "1NBbvmjQr8xXnFR2hurwF7v5DexWPiDUN9",
+      "direction": "deposit",
+      "occurrences": 4,
+      "total_btcb2": 37.88,
+      "days_seen": [
+        "2026-09-07",
+        "2026-09-08",
+        "2026-09-16"
+      ],
+      "note": "Recurring depositor, 4 txs across 3 day(s)."
+    },
+    {
+      "address": "bc1q8zw9sdr9jdkuke595tg9ja0w8asc52dtpklrw0",
+      "direction": "deposit",
+      "occurrences": 2,
+      "total_btcb2": 26.0,
+      "days_seen": [
+        "2026-09-07"
+      ],
+      "note": "Recurring depositor, 2 txs across 1 day(s)."
+    },
+    {
+      "address": "bc1qg0zh35wq2jxfj855ljqf8ve8uxk636dq8aax6z",
+      "direction": "deposit",
+      "occurrences": 2,
+      "total_btcb2": 22.84,
+      "days_seen": [
+        "2026-09-15",
+        "2026-09-16"
+      ],
+      "note": "Recurring depositor, 2 txs across 2 day(s)."
+    },
+    {
+      "address": "bc1qu8hkxrnwyjyu2avnjy54cmfe6c9qxg39yqlcqz",
+      "direction": "deposit",
+      "occurrences": 2,
+      "total_btcb2": 19.5,
+      "days_seen": [
+        "2026-09-07",
+        "2026-09-16"
+      ],
+      "note": "Recurring depositor, 2 txs across 2 day(s)."
+    },
+    {
+      "address": "bc1q03geac937p36zdggj4mpwwww0scmxm697j3exf",
+      "direction": "deposit",
+      "occurrences": 5,
+      "total_btcb2": 14.82,
+      "days_seen": [
+        "2026-09-15",
+        "2026-09-16"
+      ],
+      "note": "Recurring depositor, 5 txs, small avg size (~2.96 BTCB2/tx) - looks automated (miner payout / claimer script)."
+    },
+    {
+      "address": "1HMihXH8hLfAuh8f8dF7EW8mEBcLpuCyRg",
+      "direction": "deposit",
+      "occurrences": 9,
+      "total_btcb2": 9.4,
+      "days_seen": [
+        "2026-09-07"
+      ],
+      "note": "Recurring depositor, 9 txs, small avg size (~1.04 BTCB2/tx) - looks automated (miner payout / claimer script)."
+    },
+    {
+      "address": "15HZvN4dhDBpcamnYYhV9ny9Y1KvGhHWA7",
+      "direction": "deposit",
+      "occurrences": 3,
+      "total_btcb2": 9.39,
+      "days_seen": [
+        "2026-09-07",
+        "2026-09-08"
+      ],
+      "note": "Recurring depositor, 3 txs across 2 day(s)."
+    },
+    {
+      "address": "1CPpdJaRf2X8uCUXNkUFNRaSM2bbXqinJw",
+      "direction": "deposit",
+      "occurrences": 9,
+      "total_btcb2": 8.23,
+      "days_seen": [
+        "2026-09-07"
+      ],
+      "note": "Recurring depositor, 9 txs, small avg size (~0.91 BTCB2/tx) - looks automated (miner payout / claimer script)."
+    },
+    {
+      "address": "1EwqMiicehEjCBQhokWaMyeb3VVv2F98UF",
+      "direction": "deposit",
+      "occurrences": 11,
+      "total_btcb2": 8.08,
+      "days_seen": [
+        "2026-09-08"
+      ],
+      "note": "Recurring depositor, 11 txs, small avg size (~0.73 BTCB2/tx) - looks automated (miner payout / claimer script)."
+    },
+    {
+      "address": "bc1qd87ss7078ntj9wagtejtz7t4d4uk733lcjrp7g",
+      "direction": "deposit",
+      "occurrences": 3,
+      "total_btcb2": 7.19,
+      "days_seen": [
+        "2026-09-07"
+      ],
+      "note": "Recurring depositor, 3 txs across 1 day(s)."
+    },
+    {
+      "address": "18ZYqHQHjBoSqpPUnapjZeSYgCBzy69E3e",
+      "direction": "deposit",
+      "occurrences": 9,
+      "total_btcb2": 6.73,
+      "days_seen": [
+        "2026-09-07"
+      ],
+      "note": "Recurring depositor, 9 txs, small avg size (~0.75 BTCB2/tx) - looks automated (miner payout / claimer script)."
+    },
+    {
+      "address": "1PFpYUn3wBjkiP11ngfUfHiFQ34MoXbn9r",
+      "direction": "deposit",
+      "occurrences": 10,
+      "total_btcb2": 6.71,
+      "days_seen": [
+        "2026-09-08"
+      ],
+      "note": "Recurring depositor, 10 txs, small avg size (~0.67 BTCB2/tx) - looks automated (miner payout / claimer script)."
+    },
+    {
+      "address": "14sHZ6UbEaWdEZLRxbvNHpcmwTCW4y1MW7",
+      "direction": "deposit",
+      "occurrences": 10,
+      "total_btcb2": 6.3,
+      "days_seen": [
+        "2026-09-08"
+      ],
+      "note": "Recurring depositor, 10 txs, small avg size (~0.63 BTCB2/tx) - looks automated (miner payout / claimer script)."
+    },
+    {
+      "address": "bc1qx52zl3eeruute9x94qlypfg3p2krasec67lmzx",
+      "direction": "deposit",
+      "occurrences": 2,
+      "total_btcb2": 5.81,
+      "days_seen": [
+        "2026-09-08",
+        "2026-09-16"
+      ],
+      "note": "Recurring depositor, 2 txs across 2 day(s)."
+    },
+    {
+      "address": "1LqZpr73teQ8F74aFkZ21wgheuPjtXEsos",
+      "direction": "deposit",
+      "occurrences": 8,
+      "total_btcb2": 5.63,
+      "days_seen": [
+        "2026-09-08"
+      ],
+      "note": "Recurring depositor, 8 txs, small avg size (~0.70 BTCB2/tx) - looks automated (miner payout / claimer script)."
+    },
+    {
+      "address": "1GWmveHk2myxwDgbipt4qwzpJUAdd8BqCA",
+      "direction": "deposit",
+      "occurrences": 7,
+      "total_btcb2": 4.2,
+      "days_seen": [
+        "2026-09-08"
+      ],
+      "note": "Recurring depositor, 7 txs, small avg size (~0.60 BTCB2/tx) - looks automated (miner payout / claimer script)."
+    },
+    {
+      "address": "bc1qt7yxh22d4uwhm9eyvzrptly40538ke823q9clw",
+      "direction": "deposit",
+      "occurrences": 3,
+      "total_btcb2": 4.13,
+      "days_seen": [
+        "2026-09-07",
+        "2026-09-08",
+        "2026-09-09"
+      ],
+      "note": "Recurring depositor, 3 txs across 3 day(s)."
+    },
+    {
+      "address": "18SMggNR5XxFjCmjFUdDWajXeZ6ep6K86f",
+      "direction": "deposit",
+      "occurrences": 7,
+      "total_btcb2": 4.11,
+      "days_seen": [
+        "2026-09-07"
+      ],
+      "note": "Recurring depositor, 7 txs, small avg size (~0.59 BTCB2/tx) - looks automated (miner payout / claimer script)."
+    },
+    {
+      "address": "bc1qxuzxk8n7dxwj52c75la94cu03467qhls5qqqwr",
+      "direction": "deposit",
+      "occurrences": 9,
+      "total_btcb2": 3.88,
+      "days_seen": [
+        "2026-09-15",
+        "2026-09-16"
+      ],
+      "note": "Recurring depositor, 9 txs, small avg size (~0.43 BTCB2/tx) - looks automated (miner payout / claimer script)."
+    },
+    {
+      "address": "bc1qkkx99sqtza3zzaaxhpfcmvzjlqfkpfdu40aflm",
+      "direction": "deposit",
+      "occurrences": 2,
+      "total_btcb2": 3.85,
+      "days_seen": [
+        "2026-09-07",
+        "2026-09-08"
+      ],
+      "note": "Recurring depositor, 2 txs across 2 day(s)."
+    },
+    {
+      "address": "1HRTRgYZ6MxBNn2CHf4dupftHGcZ9jVsbP",
+      "direction": "deposit",
+      "occurrences": 7,
+      "total_btcb2": 3.84,
+      "days_seen": [
+        "2026-09-08"
+      ],
+      "note": "Recurring depositor, 7 txs, small avg size (~0.55 BTCB2/tx) - looks automated (miner payout / claimer script)."
+    },
+    {
+      "address": "1CdFCxJe57JzSTQWAzkkw66TtTuyBpK1ki",
+      "direction": "deposit",
+      "occurrences": 8,
+      "total_btcb2": 3.74,
+      "days_seen": [
+        "2026-09-09"
+      ],
+      "note": "Recurring depositor, 8 txs, small avg size (~0.47 BTCB2/tx) - looks automated (miner payout / claimer script)."
+    },
+    {
+      "address": "1KyKNBHwDkfv3UKBzzVgSQZWhqejRCz6yw",
+      "direction": "deposit",
+      "occurrences": 3,
+      "total_btcb2": 3.5,
+      "days_seen": [
+        "2026-09-16"
+      ],
+      "note": "Recurring depositor, 3 txs across 1 day(s)."
+    },
+    {
+      "address": "1FpStvMgKxRrEUmV3ntnS984prZW4JyoZr",
+      "direction": "deposit",
+      "occurrences": 2,
+      "total_btcb2": 3.35,
+      "days_seen": [
+        "2026-09-07"
+      ],
+      "note": "Recurring depositor, 2 txs across 1 day(s)."
+    },
+    {
+      "address": "19WPESNhtBWgFdDSAs8jsNASbRnSsNAnNY",
+      "direction": "deposit",
+      "occurrences": 7,
+      "total_btcb2": 3.32,
+      "days_seen": [
+        "2026-09-09"
+      ],
+      "note": "Recurring depositor, 7 txs, small avg size (~0.47 BTCB2/tx) - looks automated (miner payout / claimer script)."
+    },
+    {
+      "address": "1DALBUDpe19qhN1XNGpAZKYLdvgorsHEPE",
+      "direction": "deposit",
+      "occurrences": 2,
+      "total_btcb2": 3.26,
+      "days_seen": [
+        "2026-09-16"
+      ],
+      "note": "Recurring depositor, 2 txs across 1 day(s)."
+    },
+    {
+      "address": "1PQX3sckQqi4raMa2S8bvhXRT94ok4RBDh",
+      "direction": "deposit",
+      "occurrences": 7,
+      "total_btcb2": 3.13,
+      "days_seen": [
+        "2026-09-07"
+      ],
+      "note": "Recurring depositor, 7 txs, small avg size (~0.45 BTCB2/tx) - looks automated (miner payout / claimer script)."
+    },
+    {
+      "address": "1NUr9wxhXbMZeHWxou8DJ5FrF5PatSHkr2",
+      "direction": "deposit",
+      "occurrences": 2,
+      "total_btcb2": 3.05,
+      "days_seen": [
+        "2026-09-09"
+      ],
+      "note": "Recurring depositor, 2 txs across 1 day(s)."
+    },
+    {
+      "address": "14dDBf8baZJkb3SfqTQQtQLzGGNSnE2shi",
+      "direction": "deposit",
+      "occurrences": 2,
+      "total_btcb2": 3.01,
+      "days_seen": [
+        "2026-09-09"
+      ],
+      "note": "Recurring depositor, 2 txs across 1 day(s)."
+    },
+    {
+      "address": "1ghwu6GwQaHzB6ttFscXzUQ2sZNrfwCB8",
+      "direction": "deposit",
+      "occurrences": 2,
+      "total_btcb2": 3.0,
+      "days_seen": [
+        "2026-09-08"
+      ],
+      "note": "Recurring depositor, 2 txs across 1 day(s)."
+    },
+    {
+      "address": "19wvMuku3kNoXoWEccjxGcUXMDTknUCKr9",
+      "direction": "deposit",
+      "occurrences": 5,
+      "total_btcb2": 2.76,
+      "days_seen": [
+        "2026-09-07"
+      ],
+      "note": "Recurring depositor, 5 txs, small avg size (~0.55 BTCB2/tx) - looks automated (miner payout / claimer script)."
+    },
+    {
+      "address": "1GnCMJbbmGM6qJSqcUdbseCSu961s7M916",
+      "direction": "deposit",
+      "occurrences": 6,
+      "total_btcb2": 2.75,
+      "days_seen": [
+        "2026-09-07"
+      ],
+      "note": "Recurring depositor, 6 txs, small avg size (~0.46 BTCB2/tx) - looks automated (miner payout / claimer script)."
+    },
+    {
+      "address": "19k2MeeRuCR4eL4CVSyF8dzJepkYTt3AFk",
+      "direction": "deposit",
+      "occurrences": 5,
+      "total_btcb2": 2.61,
+      "days_seen": [
+        "2026-09-07"
+      ],
+      "note": "Recurring depositor, 5 txs, small avg size (~0.52 BTCB2/tx) - looks automated (miner payout / claimer script)."
+    },
+    {
+      "address": "1JN5bb6Cbxba2eyDLLEmJGnyEgaJpNU4fb",
+      "direction": "deposit",
+      "occurrences": 5,
+      "total_btcb2": 2.57,
+      "days_seen": [
+        "2026-09-08"
+      ],
+      "note": "Recurring depositor, 5 txs, small avg size (~0.51 BTCB2/tx) - looks automated (miner payout / claimer script)."
+    },
+    {
+      "address": "19id7ezn8ipDumxmYUe41ndZE846yZnNAA",
+      "direction": "deposit",
+      "occurrences": 4,
+      "total_btcb2": 2.52,
+      "days_seen": [
+        "2026-09-07"
+      ],
+      "note": "Recurring depositor, 4 txs across 1 day(s)."
+    },
+    {
+      "address": "1FzQzUo3VujqhEsA9ASA8r2WvfEmFKVZG3",
+      "direction": "deposit",
+      "occurrences": 6,
+      "total_btcb2": 2.44,
+      "days_seen": [
+        "2026-09-07"
+      ],
+      "note": "Recurring depositor, 6 txs, small avg size (~0.41 BTCB2/tx) - looks automated (miner payout / claimer script)."
+    },
+    {
+      "address": "19zC4V22PB382GknVvq2p3Bq7gXjMBEMU6",
+      "direction": "deposit",
+      "occurrences": 2,
+      "total_btcb2": 2.36,
+      "days_seen": [
+        "2026-09-15"
+      ],
+      "note": "Recurring depositor, 2 txs across 1 day(s)."
+    },
+    {
+      "address": "12AVxmwhJqyXkQmU1xGXuZhUnspP9HvJwY",
+      "direction": "deposit",
+      "occurrences": 5,
+      "total_btcb2": 2.11,
+      "days_seen": [
+        "2026-09-09"
+      ],
+      "note": "Recurring depositor, 5 txs, small avg size (~0.42 BTCB2/tx) - looks automated (miner payout / claimer script)."
+    },
+    {
+      "address": "1GXrEh2rfBn7k9VpeHUaCscH5pVapfzpFc",
+      "direction": "deposit",
+      "occurrences": 2,
+      "total_btcb2": 2.08,
+      "days_seen": [
+        "2026-09-16"
+      ],
+      "note": "Recurring depositor, 2 txs across 1 day(s)."
+    },
+    {
+      "address": "19P1wbcNGYeJHRcnVsomj37ccM45cPyggD",
+      "direction": "deposit",
+      "occurrences": 4,
+      "total_btcb2": 1.93,
+      "days_seen": [
+        "2026-09-07"
+      ],
+      "note": "Recurring depositor, 4 txs across 1 day(s)."
+    },
+    {
+      "address": "1KYFZAdE2vznNy47vdhSgrPnm9QQvc3BtJ",
+      "direction": "deposit",
+      "occurrences": 3,
+      "total_btcb2": 1.9,
+      "days_seen": [
+        "2026-09-08"
+      ],
+      "note": "Recurring depositor, 3 txs across 1 day(s)."
+    },
+    {
+      "address": "12eivkjurH1gQ7hJbqQUeatrtgExowpo3w",
+      "direction": "deposit",
+      "occurrences": 4,
+      "total_btcb2": 1.82,
+      "days_seen": [
+        "2026-09-07"
+      ],
+      "note": "Recurring depositor, 4 txs across 1 day(s)."
+    },
+    {
+      "address": "1CJXnepyMLfv3ZpMbXfXRovMzaPyauUPUe",
+      "direction": "deposit",
+      "occurrences": 4,
+      "total_btcb2": 1.82,
+      "days_seen": [
+        "2026-09-09"
+      ],
+      "note": "Recurring depositor, 4 txs across 1 day(s)."
+    },
+    {
+      "address": "1H5jUF1XJVALG3qouFuNuMvEJ8kmnhjfe1",
+      "direction": "deposit",
+      "occurrences": 4,
+      "total_btcb2": 1.74,
+      "days_seen": [
+        "2026-09-07"
+      ],
+      "note": "Recurring depositor, 4 txs across 1 day(s)."
+    },
+    {
+      "address": "1KAkdwqN8W5s5ypAUeNFx6AQfwZVyTaZKZ",
+      "direction": "deposit",
+      "occurrences": 4,
+      "total_btcb2": 1.72,
+      "days_seen": [
+        "2026-09-08"
+      ],
+      "note": "Recurring depositor, 4 txs across 1 day(s)."
+    },
+    {
+      "address": "1PswicPuhgaBp2Y7Q2gRyF2pz8rg1Asp94",
+      "direction": "deposit",
+      "occurrences": 4,
+      "total_btcb2": 1.72,
+      "days_seen": [
+        "2026-09-07"
+      ],
+      "note": "Recurring depositor, 4 txs across 1 day(s)."
+    },
+    {
+      "address": "1DnkSkheMwmrPnctNP1VsoMuHbSLLp9hcD",
+      "direction": "deposit",
+      "occurrences": 4,
+      "total_btcb2": 1.66,
+      "days_seen": [
+        "2026-09-07"
+      ],
+      "note": "Recurring depositor, 4 txs across 1 day(s)."
+    },
+    {
+      "address": "1D2zjYHKCjq7L1Yc8rMsPmHoNBNPjmzTzs",
+      "direction": "deposit",
+      "occurrences": 4,
+      "total_btcb2": 1.65,
+      "days_seen": [
+        "2026-09-07"
+      ],
+      "note": "Recurring depositor, 4 txs across 1 day(s)."
+    },
+    {
+      "address": "1EHaLGEQtKGEHbRgYKoR4Gkwu98HaxVx6A",
+      "direction": "deposit",
+      "occurrences": 4,
+      "total_btcb2": 1.63,
+      "days_seen": [
+        "2026-09-08"
+      ],
+      "note": "Recurring depositor, 4 txs across 1 day(s)."
+    },
+    {
+      "address": "bc1qhcx9a7yej9vw8t82jzw9wuegd99jt9k38dduh3",
+      "direction": "deposit",
+      "occurrences": 2,
+      "total_btcb2": 1.59,
+      "days_seen": [
+        "2026-09-08",
+        "2026-09-16"
+      ],
+      "note": "Recurring depositor, 2 txs across 2 day(s)."
+    },
+    {
+      "address": "bc1qt5praystcdle0nq04e3h02yjszha82uzhww85x6972lcy40k4eyqz9jfaq",
+      "direction": "deposit",
+      "occurrences": 3,
+      "total_btcb2": 1.53,
+      "days_seen": [
+        "2026-09-09"
+      ],
+      "note": "Recurring depositor, 3 txs across 1 day(s)."
+    },
+    {
+      "address": "1KLEnfj3PWyBNuREvBETFqALpotRCbReC4",
+      "direction": "deposit",
+      "occurrences": 3,
+      "total_btcb2": 1.48,
+      "days_seen": [
+        "2026-09-07"
+      ],
+      "note": "Recurring depositor, 3 txs across 1 day(s)."
+    },
+    {
+      "address": "1NH7BegvKuf3JzJi361u4F8TCAzaGwtTee",
+      "direction": "deposit",
+      "occurrences": 3,
+      "total_btcb2": 1.48,
+      "days_seen": [
+        "2026-09-08"
+      ],
+      "note": "Recurring depositor, 3 txs across 1 day(s)."
+    },
+    {
+      "address": "1KfKVAeH3Wb9QDjQRw8ciFTXuexnj4yWxB",
+      "direction": "deposit",
+      "occurrences": 3,
+      "total_btcb2": 1.48,
+      "days_seen": [
+        "2026-09-08"
+      ],
+      "note": "Recurring depositor, 3 txs across 1 day(s)."
+    },
+    {
+      "address": "16FEEqNcK5BvM5oYbo4AGCguWR2rhnPMUm",
+      "direction": "deposit",
+      "occurrences": 3,
+      "total_btcb2": 1.46,
+      "days_seen": [
+        "2026-09-08"
+      ],
+      "note": "Recurring depositor, 3 txs across 1 day(s)."
+    },
+    {
+      "address": "1HHSFMrmpywANKcmUL34oKQb3nQ6dWwB6H",
+      "direction": "deposit",
+      "occurrences": 3,
+      "total_btcb2": 1.43,
+      "days_seen": [
+        "2026-09-08"
+      ],
+      "note": "Recurring depositor, 3 txs across 1 day(s)."
+    },
+    {
+      "address": "bc1qacqcyyfhv9tzgzcudpf4sg7gu75a6dnchpg9tw",
+      "direction": "deposit",
+      "occurrences": 4,
+      "total_btcb2": 1.37,
+      "days_seen": [
+        "2026-09-15",
+        "2026-09-16"
+      ],
+      "note": "Recurring depositor, 4 txs across 2 day(s)."
+    },
+    {
+      "address": "1P3piaD7i4ifeBfG9Q3fJ7fgyM6xH4KZ1a",
+      "direction": "deposit",
+      "occurrences": 3,
+      "total_btcb2": 1.28,
+      "days_seen": [
+        "2026-09-15"
+      ],
+      "note": "Recurring depositor, 3 txs across 1 day(s)."
+    },
+    {
+      "address": "16v89k72dUrNivumP8qPEwfxK6BSrVBze6",
+      "direction": "deposit",
+      "occurrences": 3,
+      "total_btcb2": 1.19,
+      "days_seen": [
+        "2026-09-07"
+      ],
+      "note": "Recurring depositor, 3 txs across 1 day(s)."
+    },
+    {
+      "address": "1JcFPdd8mpgZKaHkCgCK2ALuPRDzdAF57j",
+      "direction": "deposit",
+      "occurrences": 3,
+      "total_btcb2": 1.16,
+      "days_seen": [
+        "2026-09-07"
+      ],
+      "note": "Recurring depositor, 3 txs across 1 day(s)."
+    },
+    {
+      "address": "191fDojHmxk1XH9ucHaRM6F6dBEzxY2GhU",
+      "direction": "deposit",
+      "occurrences": 2,
+      "total_btcb2": 1.15,
+      "days_seen": [
+        "2026-09-07"
+      ],
+      "note": "Recurring depositor, 2 txs across 1 day(s)."
+    },
+    {
+      "address": "152TwoUsFoZAv519jvFHN1WKuiHoCsBssh",
+      "direction": "deposit",
+      "occurrences": 2,
+      "total_btcb2": 1.06,
+      "days_seen": [
+        "2026-09-07"
+      ],
+      "note": "Recurring depositor, 2 txs across 1 day(s)."
+    },
+    {
+      "address": "15eQ7XuFZKDLquaQ5mrfio6MMy6AVZj4Ch",
+      "direction": "deposit",
+      "occurrences": 2,
+      "total_btcb2": 1.01,
+      "days_seen": [
+        "2026-09-07"
+      ],
+      "note": "Recurring depositor, 2 txs across 1 day(s)."
+    },
+    {
+      "address": "1PEpcofd1AZEwdkzjB5GBeJkKuynKo445",
+      "direction": "deposit",
+      "occurrences": 3,
+      "total_btcb2": 0.99,
+      "days_seen": [
+        "2026-09-09"
+      ],
+      "note": "Recurring depositor, 3 txs across 1 day(s)."
+    },
+    {
+      "address": "1HHPd3vVsF3XTELmVJZ6ebXyp2S14zX1yV",
+      "direction": "deposit",
+      "occurrences": 3,
+      "total_btcb2": 0.99,
+      "days_seen": [
+        "2026-09-09"
+      ],
+      "note": "Recurring depositor, 3 txs across 1 day(s)."
+    },
+    {
+      "address": "19M6CBjXLCQSMSziDuPZTAdkEHvfWkAByi",
+      "direction": "deposit",
+      "occurrences": 3,
+      "total_btcb2": 0.98,
+      "days_seen": [
+        "2026-09-09"
+      ],
+      "note": "Recurring depositor, 3 txs across 1 day(s)."
+    },
+    {
+      "address": "1CJS7dn24DhRMLDvT6xXgSg4KAgGN3Hgzu",
+      "direction": "deposit",
+      "occurrences": 2,
+      "total_btcb2": 0.93,
+      "days_seen": [
+        "2026-09-07"
+      ],
+      "note": "Recurring depositor, 2 txs across 1 day(s)."
+    },
+    {
+      "address": "bc1qwxrk4axma5q3khhkwgclh62kkr4heyzvvm3ynr",
+      "direction": "deposit",
+      "occurrences": 2,
+      "total_btcb2": 0.83,
+      "days_seen": [
+        "2026-09-07",
+        "2026-09-15"
+      ],
+      "note": "Recurring depositor, 2 txs across 2 day(s)."
+    },
+    {
+      "address": "1J4WL7FnQPtzYB15fv5jzuWt8qbqUvb56D",
+      "direction": "deposit",
+      "occurrences": 2,
+      "total_btcb2": 0.82,
+      "days_seen": [
+        "2026-09-09"
+      ],
+      "note": "Recurring depositor, 2 txs across 1 day(s)."
+    },
+    {
+      "address": "12BwrPHoQAHtF5vkWJVesnEi75xbVTnZhk",
+      "direction": "deposit",
+      "occurrences": 2,
+      "total_btcb2": 0.82,
+      "days_seen": [
+        "2026-09-08"
+      ],
+      "note": "Recurring depositor, 2 txs across 1 day(s)."
+    },
+    {
+      "address": "1JDSHXhSSmoKJc6FyDXZkbmeY3Br9tcH3V",
+      "direction": "deposit",
+      "occurrences": 2,
+      "total_btcb2": 0.81,
+      "days_seen": [
+        "2026-09-09"
+      ],
+      "note": "Recurring depositor, 2 txs across 1 day(s)."
+    },
+    {
+      "address": "1LGRcyHTVrDfgiKequEBZuPc2gxdbRmjM4",
+      "direction": "deposit",
+      "occurrences": 2,
+      "total_btcb2": 0.8,
+      "days_seen": [
+        "2026-09-08"
+      ],
+      "note": "Recurring depositor, 2 txs across 1 day(s)."
+    },
+    {
+      "address": "14oSJxa72CR9ZdrEzjFqsEK8P1TGKR6A89",
+      "direction": "deposit",
+      "occurrences": 2,
+      "total_btcb2": 0.8,
+      "days_seen": [
+        "2026-09-08"
+      ],
+      "note": "Recurring depositor, 2 txs across 1 day(s)."
+    },
+    {
+      "address": "1NPQbc2dreFnrAWrQytUjLVUcqeD3LvBDd",
+      "direction": "deposit",
+      "occurrences": 2,
+      "total_btcb2": 0.72,
+      "days_seen": [
+        "2026-09-09"
+      ],
+      "note": "Recurring depositor, 2 txs across 1 day(s)."
+    },
+    {
+      "address": "18SJi59w8uRPdu6vwY7r7htBkLsxwhD2Wc",
+      "direction": "deposit",
+      "occurrences": 2,
+      "total_btcb2": 0.72,
+      "days_seen": [
+        "2026-09-08"
+      ],
+      "note": "Recurring depositor, 2 txs across 1 day(s)."
+    },
+    {
+      "address": "16DKwN9gQwDmLPP2Fj1ntPQPBC3hvWcMAk",
+      "direction": "deposit",
+      "occurrences": 2,
+      "total_btcb2": 0.69,
+      "days_seen": [
+        "2026-09-07"
+      ],
+      "note": "Recurring depositor, 2 txs across 1 day(s)."
+    },
+    {
+      "address": "1GtXJnytxKcL1rfJWxJmjQJcm95oWd88As",
+      "direction": "deposit",
+      "occurrences": 2,
+      "total_btcb2": 0.57,
+      "days_seen": [
+        "2026-09-09"
+      ],
+      "note": "Recurring depositor, 2 txs across 1 day(s)."
+    }
+  ],
+  "recurring_withdrawal_addresses": [
+    {
+      "address": "bc1q5e9hesdqlh6hjmjjnh3g5c70kn2mt56wajt230",
+      "direction": "withdrawal",
+      "occurrences": 3,
+      "total_btcb2": 281.65,
+      "days_seen": [
+        "2026-09-07",
+        "2026-09-08"
+      ],
+      "note": "Recurring withdrawal recipient, 3 txs across 2 day(s), total 281.65 BTCB2."
+    },
+    {
+      "address": "bc1qmjhdaguah4kykqzc6xeugxl43gc4h8mz2yez90",
+      "direction": "withdrawal",
+      "occurrences": 4,
+      "total_btcb2": 143.15,
+      "days_seen": [
+        "2026-09-09",
+        "2026-09-16"
+      ],
+      "note": "Recurring withdrawal recipient, 4 txs across 2 day(s), total 143.15 BTCB2."
+    },
+    {
+      "address": "bc1qvcv5n50mfxar49e665eeqwx82qas2edmk08xlc",
+      "direction": "withdrawal",
+      "occurrences": 3,
+      "total_btcb2": 56.6,
+      "days_seen": [
+        "2026-09-07",
+        "2026-09-08",
+        "2026-09-09"
+      ],
+      "note": "Recurring withdrawal recipient, 3 txs across 3 day(s), total 56.60 BTCB2."
+    },
+    {
+      "address": "bc1qa3s434n36ech8fpl46q0n966esqwwgu5ur2qtm",
+      "direction": "withdrawal",
+      "occurrences": 5,
+      "total_btcb2": 55.67,
+      "days_seen": [
+        "2026-09-09",
+        "2026-09-15",
+        "2026-09-16"
+      ],
+      "note": "Recurring withdrawal recipient, 5 txs across 3 day(s), total 55.67 BTCB2."
+    },
+    {
+      "address": "bc1q0lrn86438ngw73xfkedacxzjgsdvxspv02pn0t",
+      "direction": "withdrawal",
+      "occurrences": 3,
+      "total_btcb2": 25.8,
+      "days_seen": [
+        "2026-09-08",
+        "2026-09-09"
+      ],
+      "note": "Recurring withdrawal recipient, 3 txs across 2 day(s), total 25.80 BTCB2."
+    },
+    {
+      "address": "bc1qmz80sy63277uum6zt5uru62v2getfuk3f4q9qc",
+      "direction": "withdrawal",
+      "occurrences": 3,
+      "total_btcb2": 24.76,
+      "days_seen": [
+        "2026-09-16"
+      ],
+      "note": "Recurring withdrawal recipient, 3 txs across 1 day(s), total 24.76 BTCB2."
+    },
+    {
+      "address": "bc1qupch35ep37tz6ctq9kr0g2zk4wzhfuh56lfa82",
+      "direction": "withdrawal",
+      "occurrences": 3,
+      "total_btcb2": 24.02,
+      "days_seen": [
+        "2026-09-08",
+        "2026-09-09"
+      ],
+      "note": "Recurring withdrawal recipient, 3 txs across 2 day(s), total 24.02 BTCB2."
+    },
+    {
+      "address": "bc1ql3fvfhazuj0tn3rwp5802sk5tepll5g87j5r9x",
+      "direction": "withdrawal",
+      "occurrences": 2,
+      "total_btcb2": 21.28,
+      "days_seen": [
+        "2026-09-07"
+      ],
+      "note": "Recurring withdrawal recipient, 2 txs across 1 day(s), total 21.28 BTCB2."
+    },
+    {
+      "address": "bc1qehu8rkhvx26glp7c80cgj879cjcyg7qpcujcdp",
+      "direction": "withdrawal",
+      "occurrences": 5,
+      "total_btcb2": 19.62,
+      "days_seen": [
+        "2026-09-07",
+        "2026-09-16"
+      ],
+      "note": "Recurring withdrawal recipient, 5 txs across 2 day(s), total 19.62 BTCB2."
+    },
+    {
+      "address": "bc1q96gwk7ewn87zw6rk0gde8lruxut79ytlnxjuz4",
+      "direction": "withdrawal",
+      "occurrences": 2,
+      "total_btcb2": 17.24,
+      "days_seen": [
+        "2026-09-07",
+        "2026-09-09"
+      ],
+      "note": "Recurring withdrawal recipient, 2 txs across 2 day(s), total 17.24 BTCB2."
+    },
+    {
+      "address": "bc1qcz0qkav9vlkcu4tqrf63ejzj2duy5wnynym0re",
+      "direction": "withdrawal",
+      "occurrences": 3,
+      "total_btcb2": 15.3,
+      "days_seen": [
+        "2026-09-09"
+      ],
+      "note": "Recurring withdrawal recipient, 3 txs across 1 day(s), total 15.30 BTCB2."
+    },
+    {
+      "address": "bc1qvrgn3v4tn6a5eharyhve2d4ksk5dmr3ltvgdmy",
+      "direction": "withdrawal",
+      "occurrences": 4,
+      "total_btcb2": 14.19,
+      "days_seen": [
+        "2026-09-16"
+      ],
+      "note": "Recurring withdrawal recipient, 4 txs across 1 day(s), total 14.19 BTCB2."
+    },
+    {
+      "address": "1JZWozxV2dBZfpW9AGPLyzXWwvdwj5tsNn",
+      "direction": "withdrawal",
+      "occurrences": 3,
+      "total_btcb2": 8.19,
+      "days_seen": [
+        "2026-09-16"
+      ],
+      "note": "Recurring withdrawal recipient, 3 txs across 1 day(s), total 8.19 BTCB2."
+    },
+    {
+      "address": "bc1qj8ne4lephq6tv7r7kl444n49zexzr8uj0g4k8v",
+      "direction": "withdrawal",
+      "occurrences": 2,
+      "total_btcb2": 7.94,
+      "days_seen": [
+        "2026-09-16"
+      ],
+      "note": "Recurring withdrawal recipient, 2 txs across 1 day(s), total 7.94 BTCB2."
+    },
+    {
+      "address": "bc1qwkcm6unspwz33nkkgxysc8mlcmht5eu7p89ueh",
+      "direction": "withdrawal",
+      "occurrences": 2,
+      "total_btcb2": 7.81,
+      "days_seen": [
+        "2026-09-07",
+        "2026-09-08"
+      ],
+      "note": "Recurring withdrawal recipient, 2 txs across 2 day(s), total 7.81 BTCB2."
+    },
+    {
+      "address": "bc1qxg8m3wh42nunskljq699y5suq4qp62qq4r9gnr",
+      "direction": "withdrawal",
+      "occurrences": 3,
+      "total_btcb2": 7.27,
+      "days_seen": [
+        "2026-09-16"
+      ],
+      "note": "Recurring withdrawal recipient, 3 txs across 1 day(s), total 7.27 BTCB2."
+    },
+    {
+      "address": "bc1q0k8uerrum84l4t0lm5n3tl5dsqg3h4mw6z9tqf",
+      "direction": "withdrawal",
+      "occurrences": 2,
+      "total_btcb2": 6.4,
+      "days_seen": [
+        "2026-09-07",
+        "2026-09-08"
+      ],
+      "note": "Recurring withdrawal recipient, 2 txs across 2 day(s), total 6.40 BTCB2."
+    },
+    {
+      "address": "bc1qthjxdksatqnchj9kjj9aan3w5mpna8p0r8vcze",
+      "direction": "withdrawal",
+      "occurrences": 3,
+      "total_btcb2": 6.15,
+      "days_seen": [
+        "2026-09-07",
+        "2026-09-08",
+        "2026-09-09"
+      ],
+      "note": "Recurring withdrawal recipient, 3 txs across 3 day(s), total 6.15 BTCB2."
+    },
+    {
+      "address": "bc1qwzpgteyv4pfj592htelke3mcn53sq37tcuvrcn",
+      "direction": "withdrawal",
+      "occurrences": 4,
+      "total_btcb2": 5.95,
+      "days_seen": [
+        "2026-09-07",
+        "2026-09-08",
+        "2026-09-09"
+      ],
+      "note": "Recurring withdrawal recipient, 4 txs across 3 day(s), total 5.95 BTCB2."
+    },
+    {
+      "address": "bc1q3a739jfad7re9u5md6mf6afhrkgaxstey30p8d",
+      "direction": "withdrawal",
+      "occurrences": 3,
+      "total_btcb2": 5.58,
+      "days_seen": [
+        "2026-09-16"
+      ],
+      "note": "Recurring withdrawal recipient, 3 txs across 1 day(s), total 5.58 BTCB2."
+    },
+    {
+      "address": "1JnsVqpwBmU8DuYMJs1t2yH5QCARoEU4Sb",
+      "direction": "withdrawal",
+      "occurrences": 2,
+      "total_btcb2": 5.24,
+      "days_seen": [
+        "2026-09-15",
+        "2026-09-16"
+      ],
+      "note": "Recurring withdrawal recipient, 2 txs across 2 day(s), total 5.24 BTCB2."
+    },
+    {
+      "address": "bc1q3k0peutxct62x63annwce659slyf04kkg4f09s",
+      "direction": "withdrawal",
+      "occurrences": 2,
+      "total_btcb2": 5.2,
+      "days_seen": [
+        "2026-09-08",
+        "2026-09-09"
+      ],
+      "note": "Recurring withdrawal recipient, 2 txs across 2 day(s), total 5.20 BTCB2."
+    },
+    {
+      "address": "bc1qdyuvqd73dht7vjcag9j8trzlywnfcgzyps7rmd",
+      "direction": "withdrawal",
+      "occurrences": 2,
+      "total_btcb2": 5.1,
+      "days_seen": [
+        "2026-09-16"
+      ],
+      "note": "Recurring withdrawal recipient, 2 txs across 1 day(s), total 5.10 BTCB2."
+    },
+    {
+      "address": "bc1q09f5pjcgldtup0kmfv5u6cms52wpx4lauaz7dr",
+      "direction": "withdrawal",
+      "occurrences": 2,
+      "total_btcb2": 5.0,
+      "days_seen": [
+        "2026-09-09"
+      ],
+      "note": "Recurring withdrawal recipient, 2 txs across 1 day(s), total 5.00 BTCB2."
+    },
+    {
+      "address": "bc1qvmmux9rhvpd8r8eklsvvnhcgyst02l5jl8uvku",
+      "direction": "withdrawal",
+      "occurrences": 2,
+      "total_btcb2": 4.87,
+      "days_seen": [
+        "2026-09-09",
+        "2026-09-15"
+      ],
+      "note": "Recurring withdrawal recipient, 2 txs across 2 day(s), total 4.87 BTCB2."
+    },
+    {
+      "address": "bc1qk44hgjnzrhqm66fpc2909cxwg4awm3gvdvps38",
+      "direction": "withdrawal",
+      "occurrences": 2,
+      "total_btcb2": 4.43,
+      "days_seen": [
+        "2026-09-09",
+        "2026-09-16"
+      ],
+      "note": "Recurring withdrawal recipient, 2 txs across 2 day(s), total 4.43 BTCB2."
+    },
+    {
+      "address": "bc1qagwymf0yprgruqqnzy3pgr5yrls7ez680zgfy5",
+      "direction": "withdrawal",
+      "occurrences": 2,
+      "total_btcb2": 4.42,
+      "days_seen": [
+        "2026-09-08",
+        "2026-09-09"
+      ],
+      "note": "Recurring withdrawal recipient, 2 txs across 2 day(s), total 4.42 BTCB2."
+    },
+    {
+      "address": "1M1Xp6KSvBD18hJ5C8pm5WjEVkAHnHGAWr",
+      "direction": "withdrawal",
+      "occurrences": 4,
+      "total_btcb2": 4.36,
+      "days_seen": [
+        "2026-09-07",
+        "2026-09-09"
+      ],
+      "note": "Recurring withdrawal recipient, 4 txs across 2 day(s), total 4.36 BTCB2."
+    },
+    {
+      "address": "bc1qjuxs8h2cuj3kzcv3rlavs37tzr5vt5ffr0jhk9",
+      "direction": "withdrawal",
+      "occurrences": 2,
+      "total_btcb2": 3.86,
+      "days_seen": [
+        "2026-09-07"
+      ],
+      "note": "Recurring withdrawal recipient, 2 txs across 1 day(s), total 3.86 BTCB2."
+    },
+    {
+      "address": "148iZQv7a6w5urWd4T5Xp5BNg2RofuRWko",
+      "direction": "withdrawal",
+      "occurrences": 2,
+      "total_btcb2": 3.85,
+      "days_seen": [
+        "2026-09-16"
+      ],
+      "note": "Recurring withdrawal recipient, 2 txs across 1 day(s), total 3.85 BTCB2."
+    },
+    {
+      "address": "19e82rTCneCno9sumeiYQJaqHNVPiNUrLx",
+      "direction": "withdrawal",
+      "occurrences": 2,
+      "total_btcb2": 3.83,
+      "days_seen": [
+        "2026-09-08"
+      ],
+      "note": "Recurring withdrawal recipient, 2 txs across 1 day(s), total 3.83 BTCB2."
+    },
+    {
+      "address": "1KHSn5yNsjzcX3gQjW8u1meHHFNzgMFHjc",
+      "direction": "withdrawal",
+      "occurrences": 4,
+      "total_btcb2": 3.78,
+      "days_seen": [
+        "2026-09-07",
+        "2026-09-09"
+      ],
+      "note": "Recurring withdrawal recipient, 4 txs across 2 day(s), total 3.78 BTCB2."
+    },
+    {
+      "address": "1BAop4PJafyajpa44QgaCfm9mDHMenSpXc",
+      "direction": "withdrawal",
+      "occurrences": 3,
+      "total_btcb2": 3.66,
+      "days_seen": [
+        "2026-09-08",
+        "2026-09-09"
+      ],
+      "note": "Recurring withdrawal recipient, 3 txs across 2 day(s), total 3.66 BTCB2."
+    },
+    {
+      "address": "bc1qla0gy96vcgl8e259w2z49rx6cryzg5ku9x9cxhxqp3yuhn4cmhfswsyy36",
+      "direction": "withdrawal",
+      "occurrences": 2,
+      "total_btcb2": 3.18,
+      "days_seen": [
+        "2026-09-09"
+      ],
+      "note": "Recurring withdrawal recipient, 2 txs across 1 day(s), total 3.18 BTCB2."
+    },
+    {
+      "address": "bc1q9ul45twp2wvnqzhlpmlp3kxh7m7ry2qxgfyjca",
+      "direction": "withdrawal",
+      "occurrences": 6,
+      "total_btcb2": 3.02,
+      "days_seen": [
+        "2026-09-07",
+        "2026-09-16"
+      ],
+      "note": "Recurring withdrawal recipient, 6 txs across 2 day(s), total 3.02 BTCB2."
+    },
+    {
+      "address": "15jVzLrL5Y8NLQLF2psy1yqtr4XbkdByGP",
+      "direction": "withdrawal",
+      "occurrences": 4,
+      "total_btcb2": 3.01,
+      "days_seen": [
+        "2026-09-07",
+        "2026-09-09",
+        "2026-09-15"
+      ],
+      "note": "Recurring withdrawal recipient, 4 txs across 3 day(s), total 3.01 BTCB2."
+    },
+    {
+      "address": "13fKY2PeLjdGG735K2yUHx7Dx4LSpKVNxH",
+      "direction": "withdrawal",
+      "occurrences": 4,
+      "total_btcb2": 2.71,
+      "days_seen": [
+        "2026-09-16"
+      ],
+      "note": "Recurring withdrawal recipient, 4 txs across 1 day(s), total 2.71 BTCB2."
+    },
+    {
+      "address": "1BHfmXnXmwdi6m38vnKoAJqCGKAZ21U9nk",
+      "direction": "withdrawal",
+      "occurrences": 2,
+      "total_btcb2": 2.61,
+      "days_seen": [
+        "2026-09-08",
+        "2026-09-16"
+      ],
+      "note": "Recurring withdrawal recipient, 2 txs across 2 day(s), total 2.61 BTCB2."
+    },
+    {
+      "address": "1QJynvcsbgDZ4p5NL8kZYurqBrK37A4WwS",
+      "direction": "withdrawal",
+      "occurrences": 2,
+      "total_btcb2": 2.46,
+      "days_seen": [
+        "2026-09-07",
+        "2026-09-08"
+      ],
+      "note": "Recurring withdrawal recipient, 2 txs across 2 day(s), total 2.46 BTCB2."
+    },
+    {
+      "address": "bc1qh6hvgrq89t6f7f7xt8pc8sjrx59zs8ffypqpgd",
+      "direction": "withdrawal",
+      "occurrences": 4,
+      "total_btcb2": 2.36,
+      "days_seen": [
+        "2026-09-09"
+      ],
+      "note": "Recurring withdrawal recipient, 4 txs across 1 day(s), total 2.36 BTCB2."
+    },
+    {
+      "address": "bc1qyn9q2y00ctndtlmcvymd95ek724c9fhp85duqw",
+      "direction": "withdrawal",
+      "occurrences": 2,
+      "total_btcb2": 2.0,
+      "days_seen": [
+        "2026-09-07",
+        "2026-09-08"
+      ],
+      "note": "Recurring withdrawal recipient, 2 txs across 2 day(s), total 2.00 BTCB2."
+    },
+    {
+      "address": "bc1qpr2r25g5gz9fj6sy3fe2rkam7hsm69vr97hzuz",
+      "direction": "withdrawal",
+      "occurrences": 2,
+      "total_btcb2": 1.93,
+      "days_seen": [
+        "2026-09-07"
+      ],
+      "note": "Recurring withdrawal recipient, 2 txs across 1 day(s), total 1.93 BTCB2."
+    },
+    {
+      "address": "bc1qaalnqulm6xtgfglqfq0jdxcatn492m9y7jcd2z",
+      "direction": "withdrawal",
+      "occurrences": 2,
+      "total_btcb2": 1.89,
+      "days_seen": [
+        "2026-09-07"
+      ],
+      "note": "Recurring withdrawal recipient, 2 txs across 1 day(s), total 1.89 BTCB2."
+    },
+    {
+      "address": "bc1qmssxqll24w3rq0ttzgrhks54n228n0pdf9x9gx",
+      "direction": "mixed",
+      "occurrences": 2,
+      "total_btcb2": 0.97,
+      "days_seen": [
+        "2026-09-08",
+        "2026-09-09"
+      ],
+      "note": "Mixed deposit/withdrawal activity, 2 txs across 2 day(s)."
+    },
+    {
+      "address": "bc1q5ym3u86ng5ngydt6k08ejvusdkzkm76khlsw75",
+      "direction": "withdrawal",
+      "occurrences": 2,
+      "total_btcb2": 0.93,
+      "days_seen": [
+        "2026-09-08"
+      ],
+      "note": "Recurring withdrawal recipient, 2 txs across 1 day(s), total 0.93 BTCB2."
+    },
+    {
+      "address": "1QDERomAhuNfLdXaHxgzneDKftCgpwaXws",
+      "direction": "withdrawal",
+      "occurrences": 2,
+      "total_btcb2": 0.88,
+      "days_seen": [
+        "2026-09-08",
+        "2026-09-16"
+      ],
+      "note": "Recurring withdrawal recipient, 2 txs across 2 day(s), total 0.88 BTCB2."
+    },
+    {
+      "address": "1KJjj6k5R1jXRkPf7DsHHW7rfJF1TVKTKH",
+      "direction": "withdrawal",
+      "occurrences": 2,
+      "total_btcb2": 0.76,
+      "days_seen": [
+        "2026-09-16"
+      ],
+      "note": "Recurring withdrawal recipient, 2 txs across 1 day(s), total 0.76 BTCB2."
+    }
+  ]
+}
